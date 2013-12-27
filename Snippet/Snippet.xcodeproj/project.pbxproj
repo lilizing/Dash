@@ -23,6 +23,8 @@
 		22A5C143186D1BAD008C0626 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22A5C141186D1BAD008C0626 /* InfoPlist.strings */; };
 		22A5C145186D1BAD008C0626 /* SnippetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A5C144186D1BAD008C0626 /* SnippetTests.m */; };
 		22A5C151186D1C19008C0626 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A5C150186D1C19008C0626 /* UIView+Util.m */; };
+		22A5C155186D2259008C0626 /* NSDate+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A5C154186D2259008C0626 /* NSDate+Util.m */; };
+		22A5C157186D252E008C0626 /* NSDateUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A5C156186D252E008C0626 /* NSDateUtilTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		22A5C144186D1BAD008C0626 /* SnippetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnippetTests.m; sourceTree = "<group>"; };
 		22A5C14F186D1C19008C0626 /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
 		22A5C150186D1C19008C0626 /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
+		22A5C153186D2259008C0626 /* NSDate+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Util.h"; sourceTree = "<group>"; };
+		22A5C154186D2259008C0626 /* NSDate+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Util.m"; sourceTree = "<group>"; };
+		22A5C156186D252E008C0626 /* NSDateUtilTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateUtilTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +145,7 @@
 			children = (
 				22A5C144186D1BAD008C0626 /* SnippetTests.m */,
 				22A5C13F186D1BAD008C0626 /* Supporting Files */,
+				22A5C156186D252E008C0626 /* NSDateUtilTests.m */,
 			);
 			path = SnippetTests;
 			sourceTree = "<group>";
@@ -158,6 +164,8 @@
 			children = (
 				22A5C14F186D1C19008C0626 /* UIView+Util.h */,
 				22A5C150186D1C19008C0626 /* UIView+Util.m */,
+				22A5C153186D2259008C0626 /* NSDate+Util.h */,
+				22A5C154186D2259008C0626 /* NSDate+Util.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -276,6 +284,7 @@
 			files = (
 				22A5C130186D1BAD008C0626 /* ViewController.m in Sources */,
 				22A5C127186D1BAD008C0626 /* AppDelegate.m in Sources */,
+				22A5C155186D2259008C0626 /* NSDate+Util.m in Sources */,
 				22A5C151186D1C19008C0626 /* UIView+Util.m in Sources */,
 				22A5C123186D1BAD008C0626 /* main.m in Sources */,
 			);
@@ -285,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22A5C157186D252E008C0626 /* NSDateUtilTests.m in Sources */,
 				22A5C145186D1BAD008C0626 /* SnippetTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
