@@ -3,7 +3,7 @@
 //  WordDocPlus
 //
 //  Created by lili on 13-12-27.
-//  Copyright (c) 2013年 kdanmobile. All rights reserved.
+//  Copyright (c) 2013年 lili. All rights reserved.
 //
 
 #import "UIView+Util.h"

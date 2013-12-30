@@ -25,6 +25,8 @@
 		22A5C151186D1C19008C0626 /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A5C150186D1C19008C0626 /* UIView+Util.m */; };
 		22A5C155186D2259008C0626 /* NSDate+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A5C154186D2259008C0626 /* NSDate+Util.m */; };
 		22A5C157186D252E008C0626 /* NSDateUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A5C156186D252E008C0626 /* NSDateUtilTests.m */; };
+		22FB999418710D100026C619 /* UIImage+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB999318710D100026C619 /* UIImage+Util.m */; };
+		22FB999A18710F460026C619 /* NSFileManager+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FB999918710F460026C619 /* NSFileManager+Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		22A5C153186D2259008C0626 /* NSDate+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Util.h"; sourceTree = "<group>"; };
 		22A5C154186D2259008C0626 /* NSDate+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Util.m"; sourceTree = "<group>"; };
 		22A5C156186D252E008C0626 /* NSDateUtilTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDateUtilTests.m; sourceTree = "<group>"; };
+		22FB999218710D100026C619 /* UIImage+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Util.h"; sourceTree = "<group>"; };
+		22FB999318710D100026C619 /* UIImage+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Util.m"; sourceTree = "<group>"; };
+		22FB999818710F460026C619 /* NSFileManager+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Util.h"; sourceTree = "<group>"; };
+		22FB999918710F460026C619 /* NSFileManager+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Util.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +172,10 @@
 				22A5C150186D1C19008C0626 /* UIView+Util.m */,
 				22A5C153186D2259008C0626 /* NSDate+Util.h */,
 				22A5C154186D2259008C0626 /* NSDate+Util.m */,
+				22FB999218710D100026C619 /* UIImage+Util.h */,
+				22FB999318710D100026C619 /* UIImage+Util.m */,
+				22FB999818710F460026C619 /* NSFileManager+Util.h */,
+				22FB999918710F460026C619 /* NSFileManager+Util.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -282,11 +292,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22FB999A18710F460026C619 /* NSFileManager+Util.m in Sources */,
 				22A5C130186D1BAD008C0626 /* ViewController.m in Sources */,
 				22A5C127186D1BAD008C0626 /* AppDelegate.m in Sources */,
 				22A5C155186D2259008C0626 /* NSDate+Util.m in Sources */,
 				22A5C151186D1C19008C0626 /* UIView+Util.m in Sources */,
 				22A5C123186D1BAD008C0626 /* main.m in Sources */,
+				22FB999418710D100026C619 /* UIImage+Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
