@@ -55,4 +55,9 @@
     NSLog(@"%@",str);
 }
 
+-(void)testTemp{
+    NSDate *date = [NSDate dateWithTimeIntervalSince1970:1388383782];
+    NSLog(@"%@",date);
+}
+
 @end
