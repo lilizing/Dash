@@ -16,8 +16,4 @@
 - (BOOL)saveJpegImage:(NSString *)path;
 + (UIImage *)imageNamed:(NSString *)name bundle:(NSBundle *)boundle;
 
-+(UIImage *) loadImageByTheme:(NSString *) name;
-+(UIImage *) loadImage:(NSString *) name;
-
-
 @end
