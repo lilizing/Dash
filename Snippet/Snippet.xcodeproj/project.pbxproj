@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2291AA5E18A8A22700C54B38 /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2291AA5D18A8A22700C54B38 /* NSString+Util.m */; };
 		22A5C117186D1BAD008C0626 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A5C116186D1BAD008C0626 /* Foundation.framework */; };
 		22A5C119186D1BAD008C0626 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A5C118186D1BAD008C0626 /* CoreGraphics.framework */; };
 		22A5C11B186D1BAD008C0626 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A5C11A186D1BAD008C0626 /* UIKit.framework */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2291AA5C18A8A22700C54B38 /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		2291AA5D18A8A22700C54B38 /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
 		22A5C113186D1BAD008C0626 /* Snippet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snippet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A5C116186D1BAD008C0626 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22A5C118186D1BAD008C0626 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -179,6 +182,8 @@
 				22FB999818710F460026C619 /* NSFileManager+Util.h */,
 				22FB999918710F460026C619 /* NSFileManager+Util.m */,
 				22DAEB2E1877D55700A7CEDD /* UIViewRotateProtocol.h */,
+				2291AA5C18A8A22700C54B38 /* NSString+Util.h */,
+				2291AA5D18A8A22700C54B38 /* NSString+Util.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -299,6 +304,7 @@
 				22FB999A18710F460026C619 /* NSFileManager+Util.m in Sources */,
 				22A5C130186D1BAD008C0626 /* ViewController.m in Sources */,
 				22A5C127186D1BAD008C0626 /* AppDelegate.m in Sources */,
+				2291AA5E18A8A22700C54B38 /* NSString+Util.m in Sources */,
 				22A5C155186D2259008C0626 /* NSDate+Util.m in Sources */,
 				22A5C151186D1C19008C0626 /* UIView+Util.m in Sources */,
 				22A5C123186D1BAD008C0626 /* main.m in Sources */,
