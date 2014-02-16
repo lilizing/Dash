@@ -9,6 +9,8 @@
 #import <XCTest/XCTest.h>
 #import "NSDate+Util.h"
 
+#import "UIDevice+Util.h"
+
 @interface NSDateUtilTests : XCTestCase
 
 @end
@@ -58,6 +60,12 @@
 -(void)testTemp{
     NSDate *date = [NSDate dateWithTimeIntervalSince1970:1388383782];
     NSLog(@"%@",date);
+}
+
+-(void)testDevice{
+//    [UIDevice uniqueDeviceIdentifier];
+    NSString *identi = [[UIDevice currentDevice] uniqueDeviceIdentifier];
+    NSLog(@"%@",identi);
 }
 
 @end

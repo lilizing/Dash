@@ -8,6 +8,11 @@
 
 #import "NSString+Util.h"
 #import <CommonCrypto/CommonDigest.h>
+
+#if ! __has_feature(objc_arc)
+#warning This file must be compiled with ARC. Use -fobjc-arc flag (or convert project to ARC).
+#endif
+
 #define CHUNK_SIZE 1024
 
 @implementation NSString (Util)

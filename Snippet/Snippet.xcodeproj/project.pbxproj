@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2271149818AFAF34002532BE /* UIDevice+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2271149718AFAF34002532BE /* UIDevice+Util.m */; };
+		2271149918AFB856002532BE /* UIDevice+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2271149718AFAF34002532BE /* UIDevice+Util.m */; };
+		2271149A18AFB85A002532BE /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2291AA5D18A8A22700C54B38 /* NSString+Util.m */; };
 		2291AA5E18A8A22700C54B38 /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 2291AA5D18A8A22700C54B38 /* NSString+Util.m */; };
 		22A5C117186D1BAD008C0626 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A5C116186D1BAD008C0626 /* Foundation.framework */; };
 		22A5C119186D1BAD008C0626 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A5C118186D1BAD008C0626 /* CoreGraphics.framework */; };
@@ -42,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2271149618AFAF34002532BE /* UIDevice+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Util.h"; sourceTree = "<group>"; };
+		2271149718AFAF34002532BE /* UIDevice+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Util.m"; sourceTree = "<group>"; };
 		2291AA5C18A8A22700C54B38 /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
 		2291AA5D18A8A22700C54B38 /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
 		22A5C113186D1BAD008C0626 /* Snippet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snippet.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +189,8 @@
 				22DAEB2E1877D55700A7CEDD /* UIViewRotateProtocol.h */,
 				2291AA5C18A8A22700C54B38 /* NSString+Util.h */,
 				2291AA5D18A8A22700C54B38 /* NSString+Util.m */,
+				2271149618AFAF34002532BE /* UIDevice+Util.h */,
+				2271149718AFAF34002532BE /* UIDevice+Util.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -301,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22DAEB2F1877D56A00A7CEDD /* UIViewRotateProtocol.h in Sources */,
+				2271149818AFAF34002532BE /* UIDevice+Util.m in Sources */,
 				22FB999A18710F460026C619 /* NSFileManager+Util.m in Sources */,
 				22A5C130186D1BAD008C0626 /* ViewController.m in Sources */,
 				22A5C127186D1BAD008C0626 /* AppDelegate.m in Sources */,
@@ -317,7 +325,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A5C157186D252E008C0626 /* NSDateUtilTests.m in Sources */,
+				2271149918AFB856002532BE /* UIDevice+Util.m in Sources */,
 				22A5C145186D1BAD008C0626 /* SnippetTests.m in Sources */,
+				2271149A18AFB85A002532BE /* NSString+Util.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

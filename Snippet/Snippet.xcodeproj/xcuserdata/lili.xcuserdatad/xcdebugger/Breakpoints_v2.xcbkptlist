@@ -6,16 +6,108 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Snippet/Category/UIDevice+Util.m"
+            timestampString = "414169168.587479"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "-deviceIdentifier"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UIDevice(Util) deviceIdentifier]"
+                  moduleName = "Snippet"
+                  urlString = "file:///Users/lili/Library/Application%20Support/Dash/Snippet/Snippet/Category/UIDevice+Util.m"
+                  timestampString = "414169424.89516"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "513">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UIDevice(Util) deviceIdentifier]"
+                  moduleName = "SnippetTests"
+                  urlString = "file:///Users/lili/Library/Application%20Support/Dash/Snippet/Snippet/Category/UIDevice+Util.m"
+                  timestampString = "414169425.379475"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "102"
+                  endingLineNumber = "102"
+                  offsetFromSymbolStart = "513">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Snippet/Category/UIDevice+Util.m"
+            timestampString = "414169418.064966"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "-deviceIdentifier"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UIDevice(Util) deviceIdentifier]"
+                  moduleName = "Snippet"
+                  urlString = "file:///Users/lili/Library/Application%20Support/Dash/Snippet/Snippet/Category/UIDevice+Util.m"
+                  timestampString = "414169424.895614"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "251">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[UIDevice(Util) deviceIdentifier]"
+                  moduleName = "SnippetTests"
+                  urlString = "file:///Users/lili/Library/Application%20Support/Dash/Snippet/Snippet/Category/UIDevice+Util.m"
+                  timestampString = "414169425.379969"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "251">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SnippetTests/NSDateUtilTests.m"
-            timestampString = "410079346.295586"
+            timestampString = "414207664.132557"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "-testTemp"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "-testDevice"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
