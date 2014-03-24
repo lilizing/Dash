@@ -194,5 +194,59 @@
     return mutable;
 };
 
+-(NSString *)trim{
+    return [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]];
+}
+
+- (CGSize)drawInRect:(CGRect)rect withFont:(UIFont *)font verticalAlignment:(NSVerticalTextAlignment)vAlign
+{
+    switch (vAlign) {
+        case NSVerticalTextAlignmentTop:
+            break;
+            
+        case NSVerticalTextAlignmentMiddle:
+            rect.origin.y = rect.origin.y + ((rect.size.height - font.pointSize) / 2);
+            break;
+            
+        case NSVerticalTextAlignmentBottom:
+            rect.origin.y = rect.origin.y + rect.size.height - font.pointSize;
+            break;
+    }
+    return [self drawInRect:rect withFont:font];
+}
+
+- (CGSize)drawInRect:(CGRect)rect withFont:(UIFont *)font lineBreakMode:(NSLineBreakMode)lineBreakMode verticalAlignment:(NSVerticalTextAlignment)vAlign
+{
+    switch (vAlign) {
+        case NSVerticalTextAlignmentTop:
+            break;
+            
+        case NSVerticalTextAlignmentMiddle:
+            rect.origin.y = rect.origin.y + ((rect.size.height - font.pointSize) / 2);
+            break;
+            
+        case NSVerticalTextAlignmentBottom:
+            rect.origin.y = rect.origin.y + rect.size.height - font.pointSize;
+            break;
+    }
+    return [self drawInRect:rect withFont:font lineBreakMode:lineBreakMode];
+}
+
+- (CGSize)drawInRect:(CGRect)rect withFont:(UIFont *)font lineBreakMode:(NSLineBreakMode)lineBreakMode alignment:(NSTextAlignment)alignment verticalAlignment:(NSVerticalTextAlignment)vAlign
+{
+    switch (vAlign) {
+        case NSVerticalTextAlignmentTop:
+            break;
+            
+        case NSVerticalTextAlignmentMiddle:
+            rect.origin.y = rect.origin.y + ((rect.size.height - font.pointSize) / 2);
+            break;
+            
+        case NSVerticalTextAlignmentBottom:
+            rect.origin.y = rect.origin.y + rect.size.height - font.pointSize;
+            break;
+    }
+    return [self drawInRect:rect withFont:font lineBreakMode:lineBreakMode alignment:alignment];
+}
 @end
 

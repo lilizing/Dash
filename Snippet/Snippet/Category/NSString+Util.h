@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+typedef enum {
+    NSVerticalTextAlignmentTop,
+    NSVerticalTextAlignmentMiddle,
+    NSVerticalTextAlignmentBottom
+} NSVerticalTextAlignment;
+
 @interface NSString (Util)
 
 - (NSString *)md5;
@@ -21,6 +27,7 @@
 - (NSString *)URLEncode;
 - (NSString *)URLEncodedString;
 - (NSString *)URLDecodedString;
+- (NSString *)trim;
 
 /**
  * Escape the standard 5 XML entities: &, <, >, ", '
@@ -30,5 +37,10 @@
  * Unescape the standard 5 XML entities: &, <, >, ", '
  */
 - (NSString *) stringByUnescapingCrititcalXMLEntities;
+
+
+- (CGSize)drawInRect:(CGRect)rect withFont:(UIFont *)font verticalAlignment:(NSVerticalTextAlignment)vAlign;
+- (CGSize)drawInRect:(CGRect)rect withFont:(UIFont *)font lineBreakMode:(NSLineBreakMode)lineBreakMode verticalAlignment:(NSVerticalTextAlignment)vAlign;
+- (CGSize)drawInRect:(CGRect)rect withFont:(UIFont *)font lineBreakMode:(NSLineBreakMode)lineBreakMode alignment:(NSTextAlignment)alignment verticalAlignment:(NSVerticalTextAlignment)vAlign;
 
 @end
