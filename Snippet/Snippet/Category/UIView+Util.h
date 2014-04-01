@@ -11,6 +11,7 @@
 @interface UIView (Util)
 
 + (id)viewFromNibNamed:(NSString *)nibName;
++ (id)viewFromNibNamed:(NSString *)nibName viewName:(NSString *)viewName;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil;
 
 - (UIImage*)screenshot;

@@ -34,14 +34,29 @@ static char kDTActionHandlerLongPressGestureKey;
     return nil;
 }
 
++ (id)viewFromNibNamed:(NSString *)nibName viewName:(NSString *)viewName
+{
+    NSArray *nibViews = [[NSBundle mainBundle]loadNibNamed:nibName owner:self options:nil];
+    for (id object in nibViews) {
+        if ([object isKindOfClass:NSClassFromString(viewName)]) {
+            return object;
+        }
+    }
+    if (viewName == nil && nibViews) {
+        return [nibViews objectAtIndex:0];
+    }
+    return nil;
+}
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil{
     NSArray *nibViews = [(nibBundleOrNil ? nibBundleOrNil : [NSBundle mainBundle]) loadNibNamed:nibNameOrNil owner:self options:nil];
     for (id object in nibViews) {
         if ([object isKindOfClass:NSClassFromString(nibNameOrNil)]) {
             self = object;
-        } 
-    } 
-    return self; 
+        }
+    }
+    return self;
 }
 
 - (UIImage*)screenshotWithOptimization:(BOOL)optimized

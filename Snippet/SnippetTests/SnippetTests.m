@@ -28,7 +28,9 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+//    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    double a = [@"1.0001000" doubleValue];
+    NSLog(@"%lf",a);
 }
 
 @end
